@@ -21,7 +21,8 @@ import { OffersComponent } from './offers/offers.component';
 import { CelebrationsComponent } from './celebrations/celebrations.component';
 import { AuthComponent } from './auth/auth.component';
 import { SigninComponent } from './auth/signin/signin.component';
-import { SignupComponent } from './auth/signup/signup.component'
+import { SignupComponent } from './auth/signup/signup.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { SignupComponent } from './auth/signup/signup.component'
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
